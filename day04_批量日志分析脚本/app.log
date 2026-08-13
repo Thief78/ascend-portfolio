@@ -1,0 +1,11 @@
+2024-08-14 10:23:01 INFO  [main] Server started on port 8080
+2024-08-14 10:23:15 INFO  [worker] Processing request /api/users
+2024-08-14 10:23:18 ERROR [worker] Connection timeout: database unreachable
+2024-08-14 10:23:20 WARN  [worker] Retry attempt 1/3
+2024-08-14 10:23:22 ERROR [worker] Connection timeout: database unreachable
+2024-08-14 10:24:01 INFO  [main] Health check: OK
+2024-08-14 10:25:00 ERROR [auth]   Authentication failed for user admin
+2024-08-14 10:25:05 WARN  [auth]   Login rate limit triggered
+2024-08-14 10:25:30 INFO  [worker] Processing request /api/orders
+2024-08-14 10:26:00 ERROR [worker] Out of memory: cannot allocate buffer
+2024-08-14 10:26:10 FATAL [main] Critical failure, shutting down
