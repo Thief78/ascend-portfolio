@@ -1,0 +1,12 @@
+[2024-08-15 10:00:01] [INFO] Loading model resnet50 from /models/resnet50.onnx
+[2024-08-15 10:00:05] [INFO] Model loaded, warmup start
+[2024-08-15 10:00:10] [INFO] Warmup complete, total warmup time: 3.2s
+[2024-08-15 10:00:11] [INFO] Batch 1 processed, accuracy=0.8721, latency=12.5ms
+[2024-08-15 10:00:12] [INFO] Batch 2 processed, accuracy=0.8834, latency=11.8ms
+[2024-08-15 10:00:13] [WARN] Batch 3 latency spike detected, accuracy=0.8790, latency=45.2ms
+[2024-08-15 10:00:14] [INFO] Batch 4 processed, accuracy=0.8901, latency=12.1ms
+[2024-08-15 10:00:15] [ERROR] Batch 5 failed, accuracy=0.0000, latency=0.0ms, error_code=503
+[2024-08-15 10:00:16] [INFO] Batch 6 processed, accuracy=0.8912, latency=11.9ms
+[2024-08-15 10:00:17] [INFO] Batch 7 processed, accuracy=0.8855, latency=12.3ms
+[2024-08-15 10:00:18] [ERROR] Batch 8 failed, accuracy=0.0000, latency=0.0ms, error_code=503
+[2024-08-15 10:00:20] [INFO] Inference session ended, total batches: 8
