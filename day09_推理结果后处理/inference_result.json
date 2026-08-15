@@ -1,0 +1,15 @@
+{
+  "model": "yolov5s",
+  "image": "test_0001.jpg",
+  "width": 640,
+  "height": 480,
+  "detections": [
+    {"class": "person", "confidence": 0.95, "bbox": [120, 80, 380, 450]},
+    {"class": "person", "confidence": 0.87, "bbox": [400, 100, 600, 460]},
+    {"class": "car", "confidence": 0.91, "bbox": [50, 200, 350, 400]},
+    {"class": "car", "confidence": 0.62, "bbox": [500, 250, 630, 420]},
+    {"class": "bicycle", "confidence": 0.78, "bbox": [200, 150, 320, 300]},
+    {"class": "traffic_light", "confidence": 0.55, "bbox": [310, 60, 340, 90]}
+  ],
+  "inference_time_ms": 23.5
+}
